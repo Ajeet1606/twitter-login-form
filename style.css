@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 246, 231);
+}
+
+.outer{
+    padding: 5px;
+    width: 400px;
+    height: 510px;
+    background-color: white;
+    border-radius: 6%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.img{
+    text-align: center;
+    margin-top: 6px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.loginImg{
+    width: 25px;
+    height: 25px;
+    margin-right: 3px;
+}
+
+.loginWith {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 3%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.signin, .or{
+    font-weight: bold;
+}
+
+.options{
+    text-align: center;
+}
+
+.email, .forgot{
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 3%;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.orlogin{
+    opacity: 0.5;
+}
+
+.next{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3%;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+
+.forgot{
+    margin-top: 10px;
+}
+
+.signup{
+    text-align: center;
+}
+
+.create{
+    color: rgb(0, 179, 255);
+}
